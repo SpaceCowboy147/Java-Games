@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox fx:id="buttonContainer" alignment="CENTER" prefHeight="775.0" prefWidth="657.0" spacing="20.0" style="-fx-background-color: lightblue;" styleClass="background-vbox" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javagames.Controllers.MainMenuController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+    <Button blendMode="GREEN" cache="true" minHeight="100.0" minWidth="300.0" onAction="#onJavaGamesButtonClick" text="Java Games">
+      <font>
+         <Font name="Arial" size="36.0" />
+      </font>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin></Button>
+    <Button blendMode="GREEN" minHeight="100.0" minWidth="300.0" text="Options">
+      <font>
+         <Font name="Arial" size="36.0" />
+      </font></Button>
+    <Button blendMode="GREEN" minHeight="100.0" minWidth="300.0" text="Exit" onAction="#onExitButtonClicked">
+      <font>
+         <Font size="36.0" />
+      </font></Button>
+   <effect>
+      <Blend />
+   </effect>
+
+
+</VBox>
